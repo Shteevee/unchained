@@ -5,7 +5,6 @@ from django.template.defaultfilters import slugify
 from django.contrib.auth.models import User
 
 
-
 class Category(models.Model):
     maxChar = 128
     name = models.CharField(max_length=maxChar, unique=True)
